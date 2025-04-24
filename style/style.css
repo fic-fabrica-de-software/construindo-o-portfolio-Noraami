@@ -4,19 +4,48 @@ div{
 }
 
 body{
-    max-width: 1200px;
+    width: 100%;
     padding: 30px;
-    background-image: url(/Fundo.png);
+    background-image: url("../Fundo.png");
+    justify-content: center;
 }
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 header{
     height: fit-content;
-    padding: 100px 32px;
-    background-color: aqua;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
 }
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-size: 50px;
+    display: inline-block;
+    color: white;
+  }
+  
+  .abas ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10%;
+  }
+
+  .abas a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .abas a:hover{
+    text-decoration: underline;
+  }
+
+  .abas{
+    width: 100%;
+  }
+
