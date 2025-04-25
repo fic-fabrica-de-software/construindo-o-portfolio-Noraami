@@ -1,11 +1,7 @@
-div{
-    stroke: red;
-    stroke-width: 5px;
-}
-
 body{
     width: 100%;
-    padding: 30px;
+    min-width: 280px;
+    padding: 1.5625%;
     background-image: url("../Fundo.png");
     justify-content: center;
 }
