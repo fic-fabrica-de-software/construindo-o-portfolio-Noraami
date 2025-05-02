@@ -1,47 +1,76 @@
-body{
-    width: 100%;
-    min-width: 280px;
-    padding: 1.5625%;
-    background-image: url("../Fundo.png");
-    justify-content: center;
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 280px;
+  padding: 1.5625%;
+  background-image: url("../assets/Fundo.png");
+  background-size: cover;
+  height: fit-content;
 }
 
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-header{
-    height: fit-content;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
+header {
+  height: fit-content;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  position: static;
 }
 
-.material-symbols-outlined {
-    font-family: 'Material Symbols Outlined';
-    font-size: 50px;
-    display: inline-block;
-    color: white;
-  }
-  
-  .abas ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    gap: 10%;
-  }
+.abas ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10%;
+}
 
-  .abas a{
-    text-decoration: none;
-    color: white;
-  }
+.abas a {
+  text-decoration: none;
+  color: white;
+}
 
-  .abas a:hover{
-    text-decoration: underline;
-  }
+.abas a:hover {
+  text-decoration: underline;
+}
 
-  .abas{
-    width: 100%;
-  }
+.abas {
+  width: 100%;
+}
 
+header i {
+  color: white;
+  font-size: 50px;
+  align-items: center;
+}
+
+.nunito-uniquifier {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.orbitron-uniquifier {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 30px;
+  text-align: end;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8%;
+  position: relative;
+}
+
+#titulo{
+  margin-top: 26%;
+}
