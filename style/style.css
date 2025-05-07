@@ -1,12 +1,13 @@
 body {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  min-width: 280px;
-  padding: 1.5625%;
+  width: 100vw;
+  min-width: 355px;
   background-image: url("../assets/Fundo.png");
   background-size: cover;
-  height: fit-content;
+  height: 100vh;
+  background-attachment: fixed;
+  padding: 1.5625%;
 }
 
 * {
@@ -15,19 +16,18 @@ body {
 }
 
 header {
-  height: fit-content;
-  padding: 10px 20px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
-  position: static;
+
 }
 
-.abas ul {
+main {
   display: flex;
-  list-style: none;
-  justify-content: center;
-  gap: 10%;
+  flex-direction:column;
+  padding: 0 7%;
 }
+
 
 .abas a {
   text-decoration: none;
@@ -42,35 +42,68 @@ header {
   width: 100%;
 }
 
-header i {
+.orbitron-uniquifier {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
   color: white;
-  font-size: 50px;
-  align-items: center;
+  font-size: 3.1vw;
+  text-align: end;
+  height: max-content;
 }
 
 .nunito-uniquifier {
   font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
-  font-style: normal;
   letter-spacing: 1px;
+  font-size: 1.3vw;
 }
 
-.orbitron-uniquifier {
-  font-family: "Orbitron", sans-serif;
-  font-weight: 400;
+header i {
   color: white;
-  font-size: 30px;
-  text-align: end;
+  font-size: 3.5vw;
+  align-items: center;
 }
 
-main {
+.abas ul {
   display: flex;
-  flex-direction: column;
-  padding: 0 8%;
-  position: relative;
+  list-style: none;
+  justify-content: center;
+  gap: 10vw;
 }
 
-#titulo{
-  margin-top: 26%;
+
+@media screen and (max-width: 900px) {
+  .orbitron-uniquifier {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 27.9px;
+    text-align: end;
+    height: 100vh;
+    margin-top: 50%;
+  }
+
+  .nunito-uniquifier {
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 11.7px;
+  }
+
+  header i {
+    color: white;
+    font-size: 31.5px;
+    align-items: center;
+  }
+
+  .abas ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10vw;
+  }
+
+  .padding {
+    padding: 17.25px 1.5625%;
+  }
 }
