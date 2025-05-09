@@ -1,4 +1,70 @@
-body {
+#fundo {
   background-image: url("../assets/Fundo.png");
   background-size: cover;
+  height: 100vh;
 }
+
+
+body{
+  height: 100vh;
+}
+
+
+
+@media screen and (max-width: 339px){
+  a i{
+    font-size: 30px;
+  }
+  .ff{
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+  }
+  .f3{
+    padding: 0 3vw;
+  }
+}
+
+
+@media screen and (min-width: 340px){
+  a i{
+    font-size: 30px;
+  }
+  .ff{
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+  }
+  .f3{
+    padding: 0 9vw;
+  }
+}
+
+@media screen and (min-width: 576px){
+  .f3{
+    padding: 0 9vw;
+  }
+  .fff{
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+  }
+}
+
+@media screen and (min-width: 768px){
+  a i{
+    font-size: 40px;
+  }
+  .ff{
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+  }
+  .f3{
+    padding: 0 13vw;
+  }
+  .fff{
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+  }
+}
+
