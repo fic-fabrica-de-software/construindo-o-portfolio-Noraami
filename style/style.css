@@ -1,60 +1,82 @@
 #fundo {
-  background-image: url("../assets/Fundo.png");
+  background-image: url("../assets/Home 3.0.png");
   background-size: cover;
-  height: 100vh;
+  height: 109vh;
 }
 
-
-body{
-  height: 100vh;
+.aldrich{
+  font-family: "Aldrich", sans-serif;
 }
 
-.fff{
+.tektur{
   font-family: "Tektur", sans-serif;
+}
+
+.karla{
+  font-family: "Karla", sans-serif;
+}
+
+.rajdhani{
+  font-family: "Rajdhani", sans-serif;
+}
+
+.zzz{
+  height: 400px;
+  display: none;
+}
+
+
+
+
+
+.fff {
   letter-spacing: 2px;
 }
 
-.f4{
-  padding-right: 20px;
+.f4 {
+  padding-right: 100px;
 }
 
+#resto{
+  background-color: #160C41;
+}
 
-@media screen and (max-width: 339px){
-  a i{
+@media screen and (max-width: 339px) {
+  a i {
     font-size: 30px;
   }
-  .ff{
-    font-family: "Aldrich", sans-serif;
+
+  .ff {
     letter-spacing: 1.5px;
     font-size: 10px;
   }
 }
 
 
-@media screen and (min-width: 340px){
-  a i{
+@media screen and (min-width: 340px) {
+  a i {
     font-size: 30px;
   }
-  .ff{
-    font-family: "Aldrich", sans-serif;
+
+  .ff {
     letter-spacing: 1.5px;
     font-size: 12px;
   }
 }
 
-@media screen and (min-width: 576px){
-  .fff{
-    font-size: 50px;
+@media screen and (min-width: 576px) {
+  .fff {
+    font-size: 40px;
   }
 }
 
-@media screen and (min-width: 768px){
-  a i{
+@media screen and (min-width: 768px) {
+  a i {
     font-size: 40px;
   }
-  .ff{
+
+  .ff {
     letter-spacing: 1.5px;
     font-size: 15px;
   }
 }
-
