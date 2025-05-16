@@ -9,6 +9,14 @@ body{
   height: 100vh;
 }
 
+.fff{
+  font-family: "Tektur", sans-serif;
+  letter-spacing: 2px;
+}
+
+.f4{
+  padding-right: 20px;
+}
 
 
 @media screen and (max-width: 339px){
@@ -16,12 +24,9 @@ body{
     font-size: 30px;
   }
   .ff{
-    font-family: "Nunito", sans-serif;
+    font-family: "Aldrich", sans-serif;
     letter-spacing: 1.5px;
     font-size: 10px;
-  }
-  .f3{
-    padding: 0 3vw;
   }
 }
 
@@ -31,22 +36,15 @@ body{
     font-size: 30px;
   }
   .ff{
-    font-family: "Nunito", sans-serif;
+    font-family: "Aldrich", sans-serif;
     letter-spacing: 1.5px;
     font-size: 12px;
-  }
-  .f3{
-    padding: 0 9vw;
   }
 }
 
 @media screen and (min-width: 576px){
-  .f3{
-    padding: 0 9vw;
-  }
   .fff{
     font-size: 50px;
-    font-family: "Orbitron", sans-serif;
   }
 }
 
@@ -55,16 +53,8 @@ body{
     font-size: 40px;
   }
   .ff{
-    font-family: "Nunito", sans-serif;
     letter-spacing: 1.5px;
     font-size: 15px;
-  }
-  .f3{
-    padding: 0 13vw;
-  }
-  .fff{
-    font-size: 50px;
-    font-family: "Orbitron", sans-serif;
   }
 }
 
