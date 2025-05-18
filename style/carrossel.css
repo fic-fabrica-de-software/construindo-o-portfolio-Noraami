@@ -1,0 +1,86 @@
+.skills-carousel {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+.skill-icon {
+    flex: 0 0 calc(100% / var(--items-per-screen));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.skill-icon:hover {
+    .skill-icon span {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        color: white;
+        display: block;
+    }
+}
+
+.skill-icon span {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: white;
+    display: none;
+}
+
+.carousel-bt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .skill-icon {
+        flex: 0 0 calc(100% / 4);
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-icon {
+        flex: 0 0 calc(100% / 3);
+        font-size: 2rem;
+    }
+}

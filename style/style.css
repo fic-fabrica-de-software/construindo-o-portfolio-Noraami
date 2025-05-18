@@ -4,6 +4,22 @@
   height: 109vh;
 }
 
+#resto{
+  background-color: #160C41;
+}
+
+#carrossel{
+  height: 60px;
+}
+
+.gx{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+  height: 100%;
+  overflow: hidden;
+}
+
 .aldrich{
   font-family: "Aldrich", sans-serif;
 }
@@ -33,21 +49,9 @@
   height: 50px;
 }
 
-.img{
+.im{
   height: 100%;
 }
-
-@media screen and (min-width: 992px){
-  .sss{
-    display: block;
-  }
-
-  .xxx{
-    display: none;
-  }
-}
-
-
 
 .fff {
   letter-spacing: 2px;
@@ -57,8 +61,15 @@
   padding-right: 100px;
 }
 
-#resto{
-  background-color: #160C41;
+
+@media screen and (min-width: 992px){
+  .sss{
+    display: block;
+  }
+
+  .xxx{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 339px) {
