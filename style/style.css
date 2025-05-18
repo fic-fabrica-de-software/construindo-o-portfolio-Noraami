@@ -12,6 +12,16 @@
   height: 60px;
 }
 
+.icone-contato{
+  color: #ffffff;
+}
+
+.wp{
+  background-color: #9A2B8B;
+  border-radius: 20px;
+  border: solid 1px #ffffff;
+}
+
 .gx{
   display: flex;
   transition: transform 0.5s ease-in-out;
