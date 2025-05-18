@@ -25,7 +25,27 @@
   display: none;
 }
 
+.sss{
+  display: none;
+}
 
+.car{
+  height: 50px;
+}
+
+.img{
+  height: 100%;
+}
+
+@media screen and (min-width: 992px){
+  .sss{
+    display: block;
+  }
+
+  .xxx{
+    display: none;
+  }
+}
 
 
 

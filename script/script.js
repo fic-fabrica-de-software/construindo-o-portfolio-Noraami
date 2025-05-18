@@ -15,17 +15,19 @@ new Chart(ctx, {
         labels:
             [
                 "Drinking Coffe",
-                "VS Code",
-                "Front-End",
                 "JS",
+                "Front-End",
+                "VS Code",
                 "Learning",
                 "Back-End",
-                "Valorant"
+                "Valorant",
+                'Bootstrap',
+                'Vue'
             ],
 
         datasets:
             [{
-                data: [4, 4, 3, 2, 4, 1, 2],
+                data: [4, 2, 2.5, 3, 3.5, 1.5, 2.5, 3 , 0.5],
                 backgroundColor:
                     [
                         '#A330AF',
@@ -79,8 +81,10 @@ new Chart(ctx, {
                             response = 'Chūnin';
                         } else if (context === 3) {
                             response = 'Jōnin';
-                        } else if (context === 4) {
+                        } else if (context >= 4) {
                             response = 'Kage';
+                        } else if (context === 0){
+                            response = 'Academy Student';
                         }
                         return response;
                     })
