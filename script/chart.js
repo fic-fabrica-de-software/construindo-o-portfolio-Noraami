@@ -2,7 +2,7 @@ Chart.defaults.backgroundColor = '#FFFFFF';
 Chart.defaults.borderColor = '#FFFFFF';
 Chart.defaults.color = '#FFFFFF';
 Chart.defaults.font.size = 15;
-Chart.defaults.font.family = 'Rajdhani';
+Chart.defaults.font.family = 'aldrich';
 Chart.defaults.plugins.tooltip.enabled = false;
 
 
