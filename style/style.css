@@ -1,33 +1,21 @@
-#fundo {
+#s-background {
   background-image: url("../assets/Home 3.0.png");
   background-size: cover;
   height: 109vh;
 }
 
-#resto{
+#c-background{
   background-color: #160C41;
 }
 
-#carrossel{
-  height: 60px;
-}
-
-.icone-contato{
+.contact-icon{
   color: #ffffff;
 }
 
-.wp{
+.style-contact{
   background-color: #9A2B8B;
   border-radius: 20px;
   border: solid 1px #ffffff;
-}
-
-.gx{
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  transform: translateX(0);
-  height: 100%;
-  overflow: hidden;
 }
 
 .aldrich{
@@ -46,38 +34,24 @@
   font-family: "Rajdhani", sans-serif;
 }
 
-.zzz{
-  height: 400px;
+.display-change-chart{
   display: none;
 }
 
-.sss{
-  display: none;
-}
-
-.car{
-  height: 50px;
-}
-
-.im{
-  height: 100%;
-}
-
-.fff {
+.letter-style-nav {
   letter-spacing: 2px;
 }
 
-.f4 {
+.padd-r-nav {
   padding-right: 100px;
 }
 
-
 @media screen and (min-width: 992px){
-  .sss{
+  .display-change-chart{
     display: block;
   }
 
-  .xxx{
+  .display-change-carousel{
     display: none;
   }
 }
@@ -87,26 +61,25 @@
     font-size: 30px;
   }
 
-  .ff {
+  .letter-style-nav {
     letter-spacing: 1.5px;
     font-size: 10px;
   }
 }
-
 
 @media screen and (min-width: 340px) {
   a i {
     font-size: 30px;
   }
 
-  .ff {
+  .letter-style-nav {
     letter-spacing: 1.5px;
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 576px) {
-  .fff {
+  .title-style {
     font-size: 40px;
   }
 }
@@ -116,7 +89,7 @@
     font-size: 40px;
   }
 
-  .ff {
+  .letter-style-nav {
     letter-spacing: 1.5px;
     font-size: 15px;
   }

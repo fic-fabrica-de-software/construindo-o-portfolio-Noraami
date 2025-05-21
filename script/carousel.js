@@ -14,18 +14,18 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     const track = document.querySelector('.carousel-track');
-    const cloneSkills = [...skills, ...skills]; // Duplica para efeito infinito
+    const cloneSkills = [...skills, ...skills]; 
     let currentIndex = 0;
     let itemsPerScreen = calculateItemsPerScreen();
 
-    // Inicializa o carrossel
+
     function initCarousel() {
     track.innerHTML = '';
     cloneSkills.forEach((skill, index) => {
         const skillElement = document.createElement('div');
         skillElement.className = `skill-icon ${skill.customClass || ''}`;
         
-        // Verifica se usa imagem ou ícone
+
         if (skill.image) {
             skillElement.innerHTML = `
                 <img src="${skill.image}" alt="${skill.name}">
@@ -40,13 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCarousel();
 };
 
-    // Atualiza o carrossel
+
     function updateCarousel() {
         const itemWidth = 100 / itemsPerScreen;
         track.style.transform = `translateX(-${currentIndex * itemWidth}%)`;
     };
 
-    // Calcula itens por tela
+
     function calculateItemsPerScreen() {
         const width = window.innerWidth;
         if (width <= 992) return 5;
@@ -55,7 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (width <= 400) return 2;
     };
 
-    // Event listeners
     document.querySelector('.next').addEventListener('click', () => {
         currentIndex = (currentIndex + 1) % skills.length;
         updateCarousel();
@@ -72,7 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
         updateCarousel();
     });
 
-    // Inicializa
     document.documentElement.style.setProperty('--items-per-screen', itemsPerScreen);
     initCarousel();
 });

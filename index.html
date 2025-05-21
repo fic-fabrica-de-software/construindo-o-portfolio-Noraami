@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/carrossel.css">
+    <link rel="stylesheet" href="style/carousel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,12 +18,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <title>Bem Vindo</title>
+    <title>Gabriela Schappo Pimentel</title>
 </head>
 
 <body>
     <div>
-        <div class="container-fluid d-flex flex-column justify-content-center" id="fundo">
+        <div class="container-fluid d-flex flex-column justify-content-center" id="s-background">
             <nav class="navbar navbar-expand-lg d-flex fixed-top pt-2">
                 <div class="container">
                     <a href="index.html" class="navbar-brand ms-3 ms-sm-0"><i class="bi bi-cloud text-light"></i></a>
@@ -35,16 +35,16 @@
                     <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="link-underline-opacity-0 link-underline-opacity-100-hover text-light link-underline-light ff f4 aldrich"
+                                <a class="link-underline-opacity-0 link-underline-opacity-100-hover text-light link-underline-light letter-style-nav padd-r-nav aldrich"
                                     href="#About">About me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="link-underline-opacity-0 link-underline-opacity-100-hover text-light link-underline-light ff f4 aldrich"
-                                    href="sobremim.html">Projects</a>
+                                <a class="link-underline-opacity-0 link-underline-opacity-100-hover text-light link-underline-light letter-style-nav padd-r-nav aldrich"
+                                    href="#Projects">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="link-underline-opacity-0 link-underline-opacity-100-hover text-light link-underline-light ff aldrich"
-                                    href="sobremim.html">Contacts</a>
+                                <a class="link-underline-opacity-0 link-underline-opacity-100-hover text-light link-underline-light letter-style-nav aldrich"
+                                    href="#Contacts">Contacts</a>
                             </li>
                         </ul>
                     </div>
@@ -52,11 +52,11 @@
             </nav>
             <main class="container-fluid d-flex flex-row-reverse">
                 <div class="container">
-                    <h2 class="text-light text-end fff tektur">Professional Bug Creator &<br>Part-Time Wizard</h2>
+                    <h2 class="text-light text-end title-style tektur">Professional Bug Creator &<br>Part-Time Wizard</h2>
                 </div>
             </main>
         </div>
-        <div class="container-fluid" id="resto">
+        <div class="container-fluid" id="c-background">
             <div class="container p-5">
                 <div class="px-5 pt-5" id="About">
                     <div class="">
@@ -70,12 +70,12 @@
                 </div>
             </div>
             <div class="container p-5">
-                <div class="py-5 pe-5 ps-2 sss">
+                <div class="py-5 pe-5 ps-2 display-change-chart">
                     <p class="text-light fs-2 rajdhani text-end pe-5">My Skills</p>
                     <canvas id="skills" class="pe-5" width="100%"></canvas>
                 </div>
 
-                <div class="xxx">
+                <div class="display-change-carousel">
                     <div class="container-fluid text-end text-light pe-5">
                         <h2 class="text-light fs-2 rajdhani">My Skills</h2>
                     </div>
@@ -90,14 +90,14 @@
                     </div>
                 </div>
             </div>
-            <div class="container p-5">
-                <div class="container-fluid py-5 wp">
+            <div class="container p-5" id="Contacts">
+                <div class="container-fluid py-5 style-contact">
                     <h2 class="fs-2 tektur text-light ps-5">Contact Me</h2>
                     <br>
-                    <div class="container-fluido">
-                        <i class="fa-regular fa-envelope fs-1 icone-contato"></i>
-                        <i class="fa-brands fa-linkedin fs-1 icone-contato"></i>
-                        <i class="fa-brands fa-github fs-1 icone-contato"></i>
+                    <div class="container-fluid">
+                        <i class="fa-regular fa-envelope fs-1 contact-icon"></i>
+                        <i class="fa-brands fa-linkedin fs-1 contact-icon"></i>
+                        <i class="fa-brands fa-github fs-1 contact-icon"></i>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.js"></script>
     <script src="script/chart.js"></script>
-    <script src="script/carrossel.js"></script>
+    <script src="script/carousel.js"></script>
     <script src="https://kit.fontawesome.com/dae2db8a25.js" crossorigin="anonymous"></script>
 </body>
 
