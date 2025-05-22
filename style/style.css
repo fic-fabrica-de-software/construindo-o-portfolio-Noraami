@@ -1,8 +1,13 @@
 #s-background {
   background-image: url("../assets/Home 3.0.png");
   background-size: cover;
-  height: 109vh;
+  height: 100vh;
 }
+
+body{
+  min-width: 100vw;
+}
+
 
 #c-background{
   background-color: #160C41;
@@ -13,16 +18,10 @@
   width: 40px;
 }
 
-.links a{
+#links a{
   text-decoration: none;
   font-style: italic;
   height: 40px;
-}
-
-.links p{
-  margin-bottom: 0;
-  margin: 10px 0;
-  line-height: 20px;
 }
 
 .style-contact{
@@ -59,6 +58,10 @@
   padding-right: 100px;
 }
 
+.media{
+  display: none;
+}
+
 @media screen and (min-width: 992px){
   .display-change-chart{
     display: block;
@@ -80,7 +83,7 @@
   }
 }
 
-@media screen and (min-width: 340px) {
+@media screen and (min-width: 340px) and (max-width: 767px) {
   a i {
     font-size: 30px;
   }
@@ -91,10 +94,13 @@
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px){
   .title-style {
     font-size: 40px;
   }
+}
+
+@media screen and (max-width: 576px){
 }
 
 @media screen and (min-width: 768px) {
@@ -105,5 +111,16 @@
   .letter-style-nav {
     letter-spacing: 1.5px;
     font-size: 15px;
+  }
+
+  .contact-icon{
+    color: #ffffff;
+    width: 40px;
+  }
+  
+  .links a{
+    text-decoration: none;
+    font-style: italic;
+    height: 40px;
   }
 }
