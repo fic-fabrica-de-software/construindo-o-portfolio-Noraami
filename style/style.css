@@ -10,6 +10,19 @@
 
 .contact-icon{
   color: #ffffff;
+  width: 40px;
+}
+
+.links a{
+  text-decoration: none;
+  font-style: italic;
+  height: 40px;
+}
+
+.links p{
+  margin-bottom: 0;
+  margin: 10px 0;
+  line-height: 20px;
 }
 
 .style-contact{
