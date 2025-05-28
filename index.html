@@ -101,21 +101,36 @@
                 </div>
             </div>
             <div class="container p-5" id="Contacts">
-                <div class="container-fluid py-4 px-5 style-contact">
-                    <h2 class="fs-2 tektur text-light">Contact Me</h2>
-                    <br>
-                    <div class="d-flex justify-content-around" id="links">
-                            <a href="mailto:gsp.gabischappo@gmail.com" target="_blank"
-                                class="link-underline-opacity-0 d-flex gap-4 text-light">
-                                <i class="fa-regular fa-envelope fs-1 contact-icon"></i>
-                            </a>
-                            <a href="https://github.com/Noraami" target="_blank"
+                <div class="container-fluid p-5 style-contact">
+                    <div class="d-flex justify-content-between" id="links">
+                        <h2 class="fs-2 tektur text-light">Contact Me</h2>
+                        <div class="d-flex gap-5 pe-5">
+                            <a href="https://github.com/GabrielaSchappoPimentel" target="_blank"
                                 class="d-flex gap-2 link-underline-opacity-0">
                                 <i class="fa-brands fa-github fs-1 contact-icon"></i></a>
-                            <a href="" target="_blank" class="d-flex gap-2 link-underline-opacity-0">
+                            <a href="https://www.linkedin.com/in/gabriela-schappo-pimentel/" target="_blank" class="d-flex gap-2 link-underline-opacity-0">
                                 <i class="fa-brands fa-linkedin fs-1 contact-icon"></i></a>
-                            <a href="" target="_blank" class="d-flex gap-2 link-underline-opacity-0">
-                                <i class="fa-brands fa-telegram fs-1 contact-icon"></i></a>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <form action="https://formsubmit.co/gsp.gabischappo@gmail.com" method="post">
+                            <div class="mb-3">
+                                <label for="emailName" class="form-label aldrich text-light">Name</label>
+                                <input type="text" class="form-control" id="emailName" name="Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailImput" class="form-label aldrich text-light">Email</label>
+                                <input type="email" class="form-control" id="emailImput" aria-describedby="emailHelp"
+                                    name="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailBody" class="form-label aldrich text-light">Message</label>
+                                <textarea class="form-control" name="Message" id="emailBody" cols="30"
+                                    rows="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-light ">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
